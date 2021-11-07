@@ -1,0 +1,66 @@
+.grid {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 600px;
+	border: solid black 1px;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+    position: absolute;
+	background-image: url(https://wallpapercave.com/wp/wp3071034.jpg);
+	background-size: cover;
+}
+
+@media (max-width: 768px){
+	.grid{
+		width: 480px;
+		height: 480px;
+	}
+}
+
+@media (max-width: 492px){
+	.grid{
+		width: 384px;
+		height: 384px;
+	}
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+  } 
+ 
+  @media (max-width: 768px){
+	.grid div{
+		width: 32px;
+		height: 32px;
+	}
+}
+
+@media (max-width: 492px){
+	.grid div{
+		width: 25.6px;
+		height: 25.6px;
+	}
+}
+ .invader {
+	background-image:url(img/pixel_darth_vaders_tie_fighter_by_x_tender.gif);
+	background-size: cover;
+}
+
+.shooter {
+	background-image: url(https://th.bing.com/th/id/R.a8d65b2ee1e46a157e6a79e48299f007?rik=wNrqH6twhTNyIw&riu=http%3a%2f%2fstarwarsjunkies.weebly.com%2fuploads%2f2%2f0%2f0%2f7%2f20079353%2f977982105.png&ehk=N4vG0AKFUq4%2f0HWpWEz8lIsy%2f4ejoG5o8Ik7oGI9%2fOQ%3d&risl=&pid=ImgRaw&r=0);
+	background-size: cover;
+}
+
+.laser {
+	background-image: url(img/laser.png);
+	background-size: 25%;
+}
+
+.boom {
+	background-image: url(img/explosion-transparent-6.png);
+	background-size: cover;
+}
